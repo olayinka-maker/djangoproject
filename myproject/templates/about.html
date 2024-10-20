@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
-  </head>
-  <body>
-    <h1>The About Page</h1>
-    <h1>go to <a href="/">home</a>Page.</h1>
-  </body>
-</html>
+{% {% extends "layout.html" %}%} {% {% block title %} About {% endblock %}%} {%
+block content %}
+<h1>About Page</h1>
+<p>Link to the <a href="/">Hoome </a>page</p>
+
+{% endblock %}
